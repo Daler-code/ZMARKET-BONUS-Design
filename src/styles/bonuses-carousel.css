@@ -114,50 +114,7 @@ html {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.tile__details {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  font-size: 10px;
-  opacity: 0;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,0.9)), to(rgba(0,0,0,0)));
-  background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 100%);
-  -webkit-transition: 450ms opacity;
-  transition: 450ms opacity;
-}
-.tile__details:after,
-.tile__details:before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: #000;
-}
 
-.tile:hover .tile__details {
-  opacity: 1;
-}
-.tile__title {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  padding: 10px;
-  font-size: 25px;
-  font-weight: 500;
-  color: white;
-  padding-right: 20px;
-}
-
-@media screen and (max-width: 768px) {
-  .tile__title {
-    font-size: 14px;
-    font-weight: 500;
-    padding-right: 10px;
-    padding-bottom: 10px;
-  }
-}
 .row__inner:hover .tile {
   opacity: 0.3;
 }
