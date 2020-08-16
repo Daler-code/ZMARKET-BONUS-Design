@@ -70,3 +70,7 @@
     width: 2px;
     height: auto;
   }
+
+  .dots:active {
+    opacity: 0.5;
+  }
