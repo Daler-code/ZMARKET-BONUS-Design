@@ -67,10 +67,23 @@
   }
 
   .dots {
-    width: 2px;
-    height: auto;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background-image: url('../../assets/icons/dot-grey.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .dots .active {
+    background-image: url('../../assets/icons/dot-green.png');
   }
 
   .dots:active {
-    opacity: 0.5;
+    background-image: url('../../assets/icons/dot-green.png');
+  }
+
+  .dots:hover {
+    background-image: url('../../assets/icons/dot-green.png');
   }
